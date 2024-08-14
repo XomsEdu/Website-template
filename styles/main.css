@@ -47,6 +47,7 @@ button a {
 
 .header-nav-item a, button a {
   text-decoration: none;
+  line-height: 17.64px;
 }
 
 .header-nav-item a {
@@ -58,7 +59,7 @@ button a {
 }
 
 .header-nav-button {
-  border: 2px solid #0CBBC7;
+  border: 1px solid #0CBBC7;
   background-color: transparent;
   width: 138px;
   height: 38px;
