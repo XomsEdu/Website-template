@@ -6,7 +6,7 @@
     font-weight: 400;
     margin-left: auto;
     margin-right: auto ;
-    
+    position: relative;
     font-size: 14px;
 }
 
@@ -22,8 +22,10 @@
     width: 92.65px;
     height: 25px;
     display: block;
-    margin-top: auto;
-    margin-bottom: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 .header-nav-item {
@@ -52,4 +54,5 @@
     height: 38px;
     margin-top: auto;
     margin-bottom: auto;
+    padding: 0;
 }

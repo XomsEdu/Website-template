@@ -4,13 +4,48 @@ body {
     margin: 0px;
   }
 
+button {
+    display: inline-block;
+}
+
 button a{
     font-weight: 700;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
 }
 
 .div {
     display: block;
 }
+
+.text-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #676767;
+}
+
+.text-description-smaller {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.blue-button{
+    background-color: #0CBBC7;
+    color: #FFFFFF;
+}
+
+
+.blue-button:hover {
+    background-color: #FFFFFF;
+    color: #0CBBC7;
+    border: 1px solid #0CBBC7;
+    transition-duration: 10ms;
+}
+
+
 
 @import "./body/header";
 @import "./body/footer";
