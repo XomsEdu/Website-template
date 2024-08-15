@@ -1,9 +1,9 @@
-<svg id="BfP-icon3" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg id="BfP-icon3" width="21" height="20" viewBox="0 0 21 20" fill = "currentColor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <mask id="mask0_0_117" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="20">
     <rect width="20.8511" height="20" fill="url(#pattern0_0_117)"/>
   </mask>
   <g mask="url(#mask0_0_117)">
-    <rect x="-3.6363" y="-1.81818" width="27.2727" height="23.6364" fill="#858585"/>
+    <rect x="-3.6363" y="-1.81818" width="27.2727" height="23.6364" fill = "currentColor"/>
   </g>
   <defs>
     <pattern id="pattern0_0_117" patternContentUnits="objectBoundingBox" width="1" height="1">

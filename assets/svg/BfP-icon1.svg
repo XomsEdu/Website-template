@@ -1,10 +1,10 @@
-<svg width="20" height="25" viewBox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="20" height="25" viewBox="0 0 20 25" fill = "currentColor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <symbol id="BfP-icon1">
         <mask id="mask0_0_105" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="25">
             <rect width="19.8718" height="25" fill="url(#pattern0_0_105)"/>
         </mask>
         <g mask="url(#mask0_0_105)">
-            <rect x="-7.05127" y="-2" width="29.4872" height="28.8462" fill="#858585"/>
+            <rect x="-7.05127" y="-2" width="29.4872" height="28.8462" fill = "currentColor"/>
         </g>
         <defs>
             <pattern id="pattern0_0_105" patternContentUnits="objectBoundingBox" width="1" height="1">
