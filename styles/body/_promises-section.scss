@@ -1,0 +1,37 @@
+.promises-section{
+    padding-top: 148px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promises-section .container{
+    width: 944px;
+    height: 480px;
+    position: relative;
+}
+
+.promises-section .side-textbox {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 86px;
+    width: 365px;
+}
+
+.promises-img {
+    position: absolute;
+    right: 0;
+}
+
+.side-textbox .section-title { //easiest way to position it properly
+    width: 85px;
+}
+
+.promises-section .text-description {
+    padding-top: 20px;
+}
+
+.promises-section .start-button{
+    margin-top: 50px;
+}

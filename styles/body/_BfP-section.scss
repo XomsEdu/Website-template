@@ -1,0 +1,100 @@
+.BfP-section {
+    padding-top: 200px;
+}
+
+.BfP-slider {
+    margin: 0;
+    padding-top: 50px;
+    display: flex;
+    width: 944px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.BfP-slider-button {
+    width: 236px;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    color: #676767;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.BfP-slider-button svg {
+    fill: currentColor;
+}
+
+.BfP-slider-button:hover {
+    font-weight: 600;
+    color: #0CBBC7;
+}
+
+.BfP-slider-button:hover svg {
+    fill: #0CBBC7;
+}
+
+.BfP-slider-button:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: -22px;
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    background: #0CBBC7;
+    transition: width 0.2s ease 0s, left 0.2s ease 0s;
+    width: 0;
+}
+
+.BfP-slider-button:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+.BfP-display-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background-color: #EDFEFF;
+    height: 411px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.BfP-display-block{
+    width: 462px;
+}
+
+.BfP-display-block .text-description{
+    width: 359px;
+    line-height: 26px;
+}
+
+.BfP-display-block-title{
+    padding-top: 50px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.BfP-display-block-subtitle{
+    padding-top: 20px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.BfP-section .text-description{
+    padding-top: 10px;
+    line-height: 26px;
+    text-align: left;
+}
+
+.BfP-section .start-button{
+    margin-top: 30px;
+}
+
+.BfP-display-block img{
+    padding-top: 62px;
+}
