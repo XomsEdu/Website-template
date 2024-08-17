@@ -1,0 +1,38 @@
+.solution-section{
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.solution-section .container{
+    width: 944px;
+    height: 418px;
+    display: flex;
+    justify-content: space-between;
+
+    .side-textbox{
+        width: 364px;
+    }
+
+    .lower-title{
+        text-align: left;
+        padding-top: 124px;
+    }
+
+    .text-description{
+        padding-top: 15px;
+    }
+
+    .solution-buttons{
+        padding-top: 33px;
+        width: 340px;
+        height: 38px; //for bug with button resizing parent div
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .solution-img{
+        padding-right: 21px;
+    }
+}

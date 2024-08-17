@@ -1,0 +1,62 @@
+.resources-section{
+    padding-top: 200px;
+    
+    .container{
+        height: 750px;
+        position: relative;
+    }
+}
+
+.resources-cards{
+    padding-top: 50px;
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.resources-card{
+    width: 359px;
+    height: 533px;
+    border-radius: 4px 0px 0px 0px;
+    background-color: #FFFFFF;
+
+    .resources-card-img{
+        padding-left: 35px;
+        padding-top: 38px;
+    }
+
+    .resources-card-title{
+        padding-left: 35px;
+        padding-top: 25px;
+        width: 280px;
+        font-weight: 700;
+        line-height: 26px;
+    }
+
+    .text-description-smaller{
+        width: 280px;
+        padding-top: 11px;
+        padding-left: 35px;
+    }
+
+    .smaller-button{
+        margin-left: 35px;
+        margin-top: 25px;
+    }
+
+    box-shadow: 0px 7px 10px 0px #00000008;
+}
+
+.resources-background{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 445px;
+    background-color: #EDFEFF;
+    z-index: -1;
+}
+
+.resources-card:hover{
+    box-shadow: 0px 7px 10px 0px #00000035;
+}
