@@ -5,18 +5,20 @@
 .awards-section .container {
     margin: auto;
     width: 903px;
+    display: flex;
+    flex-direction: column;
 }
 
 .awards-cards-block {
     padding-top: 61px;
-    display: grid;
+    display: inline-grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 60px;
     row-gap: 50px;
 }
 
 .award-card {
-    width: 100%;
+    width: 261px;
     height: 259px;
     position: relative;
 }
