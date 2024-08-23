@@ -2,6 +2,7 @@ body {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-style: normal;
     margin: 0px;
+    background-color: red;
 }
 
 ul {
@@ -128,3 +129,4 @@ li {
 @import "./body/testemonials-section";
 @import "./body/solution-section";
 @import "./body/resources-section";
+@import "adaptive-main";

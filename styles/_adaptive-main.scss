@@ -1,0 +1,72 @@
+@media (max-width: 1140px) {
+
+    
+    
+    .customers-logo-row{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 10px;
+    }
+
+    .customers-logo{
+        width: 167px;
+    }
+    
+    .resources-section .container {
+        height: 100%;
+    }
+
+    .resources-cards
+    {
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        flex-wrap: wrap;
+        gap: 31px 31px;
+        padding-bottom: 31px;
+    }
+
+    .resources-background{
+        height: 890px;
+    }
+}
+
+@media (max-width: 944px){
+
+    header nav{
+        display: none;
+    }
+
+    .hero-title{
+        width: 80%;
+    }
+
+    .hero-image{
+        width: 100%;
+        height: 100%;
+    }
+
+    .promises-section .container{
+        width: 100%;
+    }
+
+    .awards-cards-block{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .awards-section .container{
+        width: 90%;
+    }
+
+    .BfP-slider{
+        width: 100%;
+    }
+
+    .solution-section .container{
+        width: 100%;
+    }
+
+    .solution-img{
+        display: none;
+    }
+}
