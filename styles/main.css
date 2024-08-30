@@ -173,6 +173,40 @@ li {
   padding: 0;
 }
 
+.burger-menu {
+  display: none;
+}
+
+.nav-burger {
+  display: none;
+  padding-top: 20px;
+  position: absolute;
+  right: 0;
+  margin-top: 40px;
+  width: 138px;
+  height: 420px;
+  background-color: #EDFEFF;
+  z-index: 50;
+  box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.031372549);
+}
+.nav-burger ul {
+  flex-direction: column;
+  row-gap: 20px;
+}
+.nav-burger li {
+  align-items: center;
+  justify-content: center;
+  width: 138px;
+}
+.nav-burger .header-nav-button {
+  position: absolute;
+  bottom: 0;
+}
+
+.open {
+  display: flex;
+}
+
 .footer .container {
   height: 524px;
   background-color: #232323;
@@ -804,6 +838,13 @@ li {
   }
   header nav {
     display: none;
+  }
+  header .burger-menu {
+    display: block;
+    position: absolute;
+    right: 10px;
+    width: 40px;
+    height: 40px;
   }
   .hero-title {
     width: 80%;

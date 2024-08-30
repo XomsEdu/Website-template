@@ -28,7 +28,21 @@
                 <ul>
                     <li class="header-nav-item" id="nav"><a href="">Company</a></li>
                     <li class="header-nav-item" id="nav"><a href="">Contact</a></li>
-                    <button class="header-nav-button white-button id="nav">Login</li>
+                    <button class="header-nav-button white-button">Login</li>
+                </ul>
+            </nav>
+
+            <svg class="burger-menu"><use href="./assets/svg/burger-menu.svg#burger-menu"/></svg>
+
+            <nav class="nav-burger">
+                <ul>
+                    <li class="header-nav-item" id="nav"><a href="">Features</a></li>
+                    <li class="header-nav-item" id="nav"><a href="">Pricing</a></li>
+                    <li class="header-nav-item" id="nav"><a href="">Testimonials</a></li>
+                    <li class="header-nav-item" id="nav"><a href="">Resources</a></li>
+                    <li class="header-nav-item" id="nav"><a href="">Company</a></li>
+                    <li class="header-nav-item" id="nav"><a href="">Contact</a></li>
+                    <button class="header-nav-button white-button">Login</li>
                 </ul>
             </nav>
         </header>
@@ -269,5 +283,13 @@
                 </div>
             </div>
         </footer>
+
+        <script>
+            document.querySelector('.burger-menu').addEventListener('click', function() {
+                
+                document.querySelector('.nav-burger').classList.toggle('open');
+            });
+        </script>        
+
     </body>
 </html>

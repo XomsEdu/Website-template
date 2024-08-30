@@ -55,3 +55,40 @@
     margin-bottom: auto;
     padding: 0;
 }
+
+.burger-menu{
+    display: none;
+}
+
+.nav-burger{
+    display: none;
+    padding-top: 20px;
+    position: absolute;
+    right: 0;
+    margin-top: 40px;
+    width: 138px;
+    height: 420px;
+    background-color: #EDFEFF;
+    z-index: 50;
+    box-shadow: 0px 7px 10px 0px #00000008;
+    
+    ul{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    li{
+        align-items: center;
+        justify-content: center;
+        width: 138px;
+    }
+
+    .header-nav-button{
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+.open{
+    display: flex;
+}
