@@ -1,0 +1,99 @@
+.footer{ 
+    .container{
+        height: 524px;
+        background-color: #232323;
+    }
+}
+
+.footer-menu{
+    max-width: 1140px;
+    height: 410px;
+    margin: auto;
+    position: relative;
+}
+
+.SanFrancisco{
+    width: 220px;
+    height: 95px;
+    padding-left: 115px;
+    padding-top: 150px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    
+
+    .SanFrancisco-img{
+        position: absolute;
+        padding-left: 28px;
+    }
+    .SanFrancisco-text{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 700;
+        color: #FFFFFF;
+        z-index: 1;
+        padding-top: 40px;
+    }
+}
+
+.footer-columns{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 478px;
+    padding-top: 50px;
+    padding-right: 174px;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+
+    .footer-column-title{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.20000000298023224px;
+        color: #FFFFFF;
+        padding-bottom: 22px;
+    }
+
+    .footer-column-item {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 40px;
+        color: #7C7C7C;
+    }
+}
+
+.footer-basement{
+    max-width: 1140px;
+    height: 114px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid#FFFFFF10;
+}
+
+.footer-basement-socials{
+    width: 68px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 40px;
+}
+
+.footer-basement-text{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.12px;
+    color: #9B9B9B;
+    padding-top: 45px;
+}

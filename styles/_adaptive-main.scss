@@ -1,0 +1,230 @@
+@media (max-width: 1140px) {
+
+    .container {
+        height: 100% !important;
+    }
+    
+    .customers-logo-row{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 10px;
+    }
+
+    .customers-logo{
+        width: 167px;
+    }
+    
+    .resources-section .container {
+        height: 100%;
+    }
+
+    .resources-cards
+    {
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        flex-wrap: wrap;
+        gap: 31px 31px;
+        padding-bottom: 31px;
+    }
+
+    .resources-background{
+        height: 890px;
+    }
+}
+
+@media (max-width: 1000px){
+    .SanFrancisco{
+        display: none;
+    }
+
+    .footer-columns{
+        padding-right: 0;
+        margin: 10px;
+        transform: translateX(-50%);
+        left: 50%;
+        width: 80%;
+        height: auto;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 944px){
+
+    header{
+        height: 40px !important;
+
+        nav{
+            display: none;
+        }
+
+        .burger-menu{
+            display: block;
+            position: absolute;
+            right: 10px;
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .hero-title{
+        width: 80%;
+    }
+
+    .hero-button{
+        margin-top: 15px;
+    }
+
+    .hero-image{
+        width: 100%;
+        height: 100%;
+        padding-top: 100px;
+    }
+
+    .promises-section .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .awards-cards-block{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .awards-section .container{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .BfP-slider{
+        width: 100%;
+    }
+
+    .BfP-display-block{
+        width: 90%;
+        height: 90%;
+    }
+
+    .solution-section .container{
+        width: 90%;
+    }
+
+    .solution-img{
+        padding-right: 0 !important;
+    }
+}
+
+@media (max-width:860px){
+    .solution-img{
+        display: none;
+    }
+
+    .solution-section{
+        padding-top: 250px;
+
+        .container{
+            justify-content: center;
+        }
+    }
+    .customers-stats{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .BfP-display-block{
+        max-width: 400px;
+    }
+
+    .BfP-display-block:nth-child(2) {
+        display: none;
+    }
+
+    .footer-basement{
+        gap:40px;
+
+        .footer-basement-socials{
+            padding-top: 20px;
+        }
+
+        .footer-basement-text{
+            padding-top: 60px;
+        }
+    }
+}
+
+@media (max-width: 800px){
+    .promises-img{
+        display: none;
+    }
+    .promises-section .container{
+
+        height: 320px !important;
+        .side-textbox{
+            top: 0;
+            position: relative;
+            min-width: 50%;
+        }
+    }
+
+    .testemonials-section .side-textbox{
+        padding-top: 0;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .lower-title{
+            width: 100%;
+            text-align: center;
+        }
+
+        .smaller-button{
+            margin: 20px 0;
+        }
+    }
+    
+
+    .testemonials-description-block{
+        bottom: -270px;
+    }
+
+    .resources-section{
+        padding-top: 150px;
+    }
+}
+
+@media (max-width: 600px){
+
+    .hero-section{
+        .hero-title{
+            font-size: 32px;
+            line-height: 34px;
+        }
+
+        .text-description-smaller{
+            width: 90%;
+        }
+    }
+
+    .awards-cards-block{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .BfP-slider-button{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 398px) {
+    .footer-menu{
+        height: 620px;
+    }
+}

@@ -1,0 +1,132 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    margin: 0px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    display: inline-block;
+}
+
+button {
+    display: inline-block;
+    border: transparent;
+    font-weight: 700;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.side-lower-title {
+    display: flex;
+}
+
+.div {
+    display: block;
+}
+
+.text-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #676767;
+}
+
+.text-description-smaller {
+    font-size: 14px;
+    font-weight: 400;
+    color: #878787;
+    line-height: 22px;
+}
+
+
+.blue-button{
+    background-color: #0CBBC7;
+    color: #FFFFFF;
+}
+
+
+.blue-button:hover{
+    background-color: #FFFFFF;
+    color: #0CBBC7;
+    border: 1px solid #0CBBC7;
+    transition-duration: 10ms;
+}
+
+.white-button{
+    background-color: #FFFFFF;
+    color: #0CBBC7;
+    border: 1px solid #0CBBC7;
+}
+
+.white-button:hover{
+    background-color: #0CBBC7;
+    color: #FFFFFF;
+    border: transparent;
+    transition-duration: 10ms;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title p{
+    display: inline-block;
+    font-size: 8px;
+    font-weight: 700;
+    color: #0CBBC7;
+    background-color: #EFFEFF;
+    margin: 0;
+    padding: 6px 10px;
+    vertical-align: bottom;
+    
+}
+
+.lower-title {
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.start-button {
+    padding: 14px 20px;
+    font-size: 16px;
+}
+
+.smaller-button {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+@import "./body/header";
+@import "./body/footer";
+@import "./body/hero-section";
+@import "./body/customers-section";
+@import "./body/promises-section";
+@import "./body/awards-section";
+@import "./body/BfP-section";
+@import "./body/testemonials-section";
+@import "./body/solution-section";
+@import "./body/resources-section";
+@import "adaptive-main";

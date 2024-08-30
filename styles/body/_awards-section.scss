@@ -1,0 +1,50 @@
+.awards-section {
+    padding-top: 200px;
+}
+
+.awards-section .container {
+    margin: auto;
+    width: 903px;
+    display: flex;
+    flex-direction: column;
+}
+
+.awards-cards-block {
+    padding-top: 61px;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    row-gap: 50px;
+}
+
+.award-card {
+    width: 261px;
+    height: 259px;
+    position: relative;
+}
+
+.award-card-img {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+}
+
+.award-card-text {
+    position: relative;
+    width: 171px;
+    line-height: 26px;
+    left: 50%;
+    top: 160px;
+    transform: translateX(-50%);
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Background colors for .award-card elements */
+.award-card.a1 { background-color: #FFF5F3; }
+.award-card.a2 { background-color: #FFF0F9; }
+.award-card.a3 { background-color: #ECFFFF; }
+.award-card.a4 { background-color: #F6F4FF; }
+.award-card.a5 { background-color: #FFF9E7; }
+.award-card.a6 { background-color: #FFEDE4; }
